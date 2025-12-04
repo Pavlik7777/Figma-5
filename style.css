@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "Play";
+    src: url(asd/PlayfairDisplay-VariableFont_wght.ttf);
+}
+.nac{
+    background-image: url(photos/coffee_fon.png);
+    height: 99vh;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+header{
+    width: 98vw;
+    height: 18vh;
+}
+nav{
+    width: 98vw;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Play", sans-serif;
+}
+nav .bean{
+    font-weight: 900;
+    color: white;
+    font-size: 35px;
+    font-family: "Clicker Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+ul{
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+.lolo{
+    width: 12%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: "Play", sans-serif;
+}
+.lolo button{
+    background-color: #F9C06A;
+    border: 1px solid #F9C06A;
+    width: 100px;
+    height: 48px;
+    border-radius: 30px;
+    box-shadow:  0  0 1vh #F9C06A ;
+}
+.left{
+    width: 40vw;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.grib{
+    width: 30vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items:start ;
+    flex-direction: column;
+    font-family: "Play", sans-serif;
+}
+.grib p{
+    font-size: 20px;
+    color: white;
+}
+.grib h1{
+    width: 25vw;
+    font-size: 220px;
+    color: white;
+    font-family: "Clicker Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 270px;
+    display: flex;
+    justify-content: center;
+}
+.grib button{
+    width: 134px;
+    height: 48px;
+    background-color: #F9C06A;
+    border: 1px solid #F9C06A;
+    border-radius: 30px;
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+.discover{
+    width: 99vw;
+}
+.dre{
+    width: 99vw;
+}
+.fro{
+    width: 85vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+}
+.coffe{
+    width: 585px;
+    height: 440px;
+    font-family: "Play", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.coffe h1{
+    color: #603809;
+    font-size: 40px;
+    width: 582px;
+    height: 72px;
+}
+.coffe p {
+    width: 585px;
+    height: 170px;
+    font-size: 20px;
+    color: #707070;
+}
+.coffe button{
+    background-color: #F9C06A;
+    border: 1px solid #F9C06A;
+    width: 134px;
+    height: 48px;
+    border-radius: 30px;
+    box-shadow:  0  0 1vh #F9C06A ;
+    font-family: "Play", sans-serif;
+}
+.cup img{
+    width: 450px;
+    height: 430px;
+}
+.lyza{
+    position:relative;
+    bottom: 8vh;
+    width: 60vw;
+    height: 230px;
+}
+.lop{
+    width: 94vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Play", sans-serif;
+}
+.pos h1{
+    color: #603809;
+    font-size: 54px;
+}
+.pos p{
+    display: flex;
+    justify-content: center;
+    color: #707070;
+    font-size: 20px;
+    height: 5vh;
+}
+.enjoy{
+    height: 70vh;
+}
+.all{
+    width: 94vw;
+    height: 46vh;
+    display: flex;
+    justify-content: center;
+    font-family: "Play", sans-serif;
+}
+.cofforit{
+    width: 67vw;
+    height: 41vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cappuccino{
+    width: 280px;
+    height: 364px;
+    background-color: #FFF9F1;
+}
+.all h1{
+    width: 14vw;
+    height: 4vh;
+    font-size: 22px;
+    color: #603809;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all h2{
+    width: 14vw;
+    height: 3vh;
+    color: #1E1E1E;
+    font-size:16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all p{
+    width: 14vw;
+    height: 3vh;
+    color: #603809;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all button{
+    width: 120px;
+    height: 44px;
+    background-color: #F9C06A;
+    border: 1px solid #F9C06A;
+    font-size: 16px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 4vw;
+    top: 2vh;
+}
+.chai_latte{
+    width: 280px;
+    height: 364px;
+    background-color: #FFF9F1;
+}
+.macchiato{
+    width: 280px;
+    height: 364px;
+    background-color: #FFF9F1;
+}
+.expresso{
+    width: 280px;
+    height: 364px;
+    background-color: #FFF9F1 ;
+}
+.blast{
+    width: 99vw;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 15vh;
+}
+.rent{
+    width: 94vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Play", sans-serif;
+}
+.topo h1{
+    color: #603809;
+    font-size: 54px;
+}
+.topo p{
+    color: #707070;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.bal{
+    width: 94vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    font-family: "Play", sans-serif;
+}
+.glop{
+    width: 67vw;
+    height: 41vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.supreme{
+    width: 280px;
+    height: 284px;
+    background-color: #FFEED8;
+}
+.quality{
+    width: 280px;
+    height: 284px;
+    background-color: #FFF9F1;
+}
+.extraordinary{
+    width: 280px;
+    height: 284px;
+    background-color: #FFF9F1;
+}
+.affordable{
+    width: 280px;
+    height: 284px;
+    background-color: #FFF9F1;
+}
+.bal .bib{
+    width: 14vw;
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bal h1{
+    display: flex;
+    justify-content: center;
+    width: 14vw;
+    font-size: 28px;
+    color: #603809;
+}
+.bal .asd {
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+}
+.bal p{
+    color: #707070;
+    font-size: 20px;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+}
+.jiga{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-family: "Play", sans-serif;
+    height: 21vh;
+}
+.joga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.joga p{
+    color: #707070;
+    font-size: 20px;
+}
+.joga h1{
+    color: #603809;
+}
+.joga button{
+    width: 134px;
+    height: 48px;
+    background-color: #F9C06A;
+    border: 1px solid #F9C06A;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.coffon{
+    background-image: url(photos/coffon.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.cont{
+    width: 99vw;
+    display: flex;
+    justify-content: space-around;
+}
+.get{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    font-family: "Play", sans-serif;
+}
+.get .cha{
+    width: 30vw;
+    height: 17vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.cha h1{
+    font-size: 54px;
+}
+.givi p{
+    font-size: 20px;
+    color: white;
+    width: 26vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.get button{
+    width: 134px;
+    height: 48px;
+    background-color: #F9C06A;
+    border: 1px solid #F9C06A;
+    border-radius: 30px;
+    font-family: "Play", sans-serif;
+    font-weight: 800;
+}
+.cukp{
+    position: relative;
+    left: 18vw;
+}
+.cja{
+    position: relative;
+    left: 6vw;
+}
+.perfection{
+    height: 90vh;
+    font-family: "Play", sans-serif;
+}
+.rep{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rep h1{
+    color: #603809;
+    font-size: 54px;
+}
+.rep p{
+    color: #707070;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.mlo{
+    width: 91vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Lorem{
+    width: 50vw;
+    height: 52vh;
+    background-color: #FFF9F1;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+}
+.lpoq{
+    width: 40vw;
+    height: 38vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Lorem p{
+    font-size: 18px;
+    color: #707070;
+    line-height: 36px;
+}
+.Lorem h1{
+    color: #603809;
+    font-size: 32px;
+    height: 6vh;
+}
+.Lorem h2{
+    color: #707070;
+    font-size: 20px;
+}
+.jonny{
+    position: relative;
+    top: 5vh;
+}
+.knopka{
+    position: relative;
+    left: 7vw;
+    width: 82px;
+    height: 80px;
+    background-color: #F9C06A;
+    border: 1px solid #F9C06A;
+    border-radius: 16px;
+}
+.knopka2{
+    position: relative;
+    left: 52vw;
+    width: 82px;
+    height: 80px;
+    background-color: #F9C06A;
+    border: 1px solid #F9C06A;
+    border-radius: 16px;
+}
+.Lorem h3{
+    color: #603809;
+    font-size: 90px;
+    position: relative;
+    right: 20vw;
+    top: 10vh;
+}
+.subscribe{
+    background-image: url(photos/Group\ 46.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 35vh;
+}
+.sub{
+    width: 96vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ribe{
+    font-family: "Play", sans-serif;
+}
+.ribe h1{
+    color: white;
+    font-size: 54px;
+    height: 17vh;
+    display: flex;
+    align-items: center;
+}
+.ribe p{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+}
+.bublik{
+    height: 8vh;
+}
+.bublik .ent{
+    width: 580px;
+    height: 60px;
+    background-color: #FFF9F1;
+    border: 1px solid #FFF9F1;
+    border-radius: 10px;
+    font-family: "Play", sans-serif;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 20px;
+    color: #707070;
+}
+.bublik .suba{
+    position: relative;
+    left: 27vw;
+    bottom: 6.3vh;
+    width: 137px;
+    height: 60px;
+    background-color: #F9C06A;
+    border: 1px solid #F9C06A;
+    border-radius: 10px;
+    font-family: "Play", sans-serif;
+    font-size: 22px;
+    color: #603809;
+}
+.pnw{
+    position: relative;
+    bottom: 15vh;
+    width: 99vw;
+    display: flex;
+    justify-content: space-between;
+}
+.beae{
+    background-image: url(photos/fotter_image.png);
+    height: 70vh;
+    background-color:#603809;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gho{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+}
+.aweq{
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btop{
+    width: 19vw;
+    height: 25vh;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.btop h1{
+    font-size: 54px;
+    color: white;
+    font-family: "Clicker Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    height: 8vh;
+}
+.btop p{
+    color: white;
+    font-size: 14px;
+    font-family: "Play", sans-serif;
+    height: 14vh;
+}
+.About{
+    width: 9vw;
+    height: 24vh;
+    line-height: 34px;
+    font-family: "Play", sans-serif;
+}
+.About h2{
+    color: white;
+    font-size: 26px;
+    height: 8vh;
+}
+.About p {
+    color: white;
+    font-size: 18px;
+}
+.Company{
+    width: 9vw;
+    height: 24vh;
+    line-height: 34px;
+    font-family: "Play", sans-serif;
+}
+.Company h2{
+    color: white;
+    font-size: 26px;
+    height: 8vh;
+}
+.Company p{
+    color: white;
+    font-size: 18px;
+}
+.Contact_Us{
+    width: 9vw;
+    height: 24vh;
+    line-height: 34px;
+    font-family: "Play", sans-serif;
+}
+.Contact_Us h2{
+    color: white;
+    font-size: 26px;
+    height: 8vh;
+}
+.Contact_Us p{
+    color: white;
+    font-size: 18px;
+    width: 19vw;
+}
+@media (min-width:320px) and (max-width:750px){
+    
+}
